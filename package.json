@@ -1,0 +1,27 @@
+{
+  "name": "price_quote_item_list",
+  "version": "0.0.1",
+  "description": "class for fetching daily prices, dividends, and stock splits from yahoo finance",
+  "main": "./lib/price_quote_item_list.js",
+  "scripts": {
+    "test": "coffee ./test/test.coffee"
+  },
+  "keywords": [
+    "price",
+    "dividend",
+    "stock split",
+    "quotes",
+    "yahoo",
+    "finance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbeshears/yahoo_quotes.git"
+  },
+  "dependencies": {
+    "async": "0.2.10",
+    "yahoo_quotes": "0.0.1"
+  },
+  "author": "Fred M. Beshears",
+  "license": "ISC"
+}
