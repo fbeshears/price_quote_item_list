@@ -19,7 +19,7 @@
     "url": "https://github.com/fbeshears/yahoo_quotes.git"
   },
   "dependencies": {
-    "async": "0.2.10",
+    "async": "2.6.4",
     "yahoo_quotes": "0.0.1"
   },
   "author": "Fred M. Beshears",
