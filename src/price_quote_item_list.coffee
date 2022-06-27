@@ -65,7 +65,7 @@ isNumber = (n) ->
   return !isNaN(parseFloat(n)) and isFinite(n)
 
 roundNumber = (number, precision) ->
-  Number (number).toFixed(precision)
+  Number( Number (number).toFixed(precision) )
 
 
 #--------------------------------------------------------
